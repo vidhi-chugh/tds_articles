@@ -7,7 +7,7 @@ library(bnlearn)
 library(Rgraphviz)
 library(qgraph)
 
-set.seed(20200302)
+set.seed(2)
 
 df = fread("framingham.csv")
 describe(df)
