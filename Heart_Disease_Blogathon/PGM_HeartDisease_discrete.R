@@ -9,7 +9,7 @@ library(qgraph)
 
 set.seed(2)
 
-df = fread("framingham.csv")
+df = fread("C:/Users/1024246/Desktop/Vidhi/Study/Blogs/git_repo_tds/tds_articles/Heart_Disease_Blogathon/framingham.csv")
 describe(df)
 
 df$education[is.na(df$education)] = median(df$education, na.rm=TRUE)
